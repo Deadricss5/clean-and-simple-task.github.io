@@ -2,7 +2,12 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -628,7 +633,6 @@ a {
     margin-bottom: 55px;
 }
 
-.slide-text-block-buttons {}
 
 .slide-text-block-buttons a {
     text-decoration: none;
