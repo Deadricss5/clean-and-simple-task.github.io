@@ -29,10 +29,6 @@ const qoutesSlider = new Swiper('.quotes-slider', {
   spaceBetween: 60,
   loop:true,
   centeredSlidesBounds: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   pagination: {
     el: ".quotes-slider-pagination",
     clickable: true,
