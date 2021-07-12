@@ -1,6 +1,5 @@
 let swiper = new Swiper(".hero-section-slider", {
   allowTouchMove: false,
-  effect: "flip",
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
