@@ -178,14 +178,14 @@
             </div>
             <!-- *********************************PLAN AND MANAGE section end********************************* -->
 
-
-            <div class="features-section">
-                <div class="features-section-wrapper">
-                    <p>ABOUT US</p>
-                    <h2>Read about our app</h2>
-                    <div class="feature-section-cards">
-                        <div class="feature-section-card">
-                            <div class="icon">
+            <!-- *********************************FEATURES section start********************************* -->
+            <div class="features">
+                <div class="features__wrapper">
+                    <p class="features__title title">ABOUT US</p>
+                    <h2 class="features__subtitle subtitle">Read about our app</h2>
+                    <div class="features__cards">
+                        <div class="features__card">
+                            <div class="features__card-icon">
                                 <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2 7.87273V19H6.42105L9 17L11.5789 19H16V7.87273L9 2L2 7.87273Z"
@@ -193,16 +193,16 @@
                                 </svg>
 
                             </div>
-                            <div class="title">
+                            <div class="features__card-title">
                                 Overview
                             </div>
-                            <p>
+                            <p class="features__card-text">
                                 Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
                             </p>
                         </div>
-                        <div class="line"></div>
-                        <div class="feature-section-card">
-                            <div class="icon">
+                        <div class="features__line"></div>
+                        <div class="features__card">
+                            <div class="features__card-icon">
                                 <svg width="28" height="18" viewBox="0 0 28 18" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -211,16 +211,16 @@
                                 </svg>
 
                             </div>
-                            <div class="title">
+                            <div class="features__card-title">
                                 Files
                             </div>
-                            <p>
+                            <p class="features__card-text">
                                 No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.
                             </p>
                         </div>
-                        <div class="line"></div>
-                        <div class="feature-section-card">
-                            <div class="icon">
+                        <div class="features__line"></div>
+                        <div class="features__card">
+                            <div class="features__card-icon">
                                 <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -229,16 +229,16 @@
                                 </svg>
 
                             </div>
-                            <div class="title">
+                            <div class="features__card-title">
                                 Meeting chats
                             </div>
-                            <p>
+                            <p class="features__card-text">
                                 Vim ne tacimates neglegentur. Erat diceret omittam at est.
                             </p>
                         </div>
-                        <div class="line"></div>
-                        <div class="feature-section-card">
-                            <div class="icon">
+                        <div class="features__line"></div>
+                        <div class="features__card">
+                            <div class="features__card-icon">
                                 <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -247,27 +247,30 @@
                                 </svg>
 
                             </div>
-                            <div class="title">
+                            <div class="features__card-title">
                                 Save events
                             </div>
-                            <p>
+                            <p class="features__card-text">
                                 Nisl idque mel ea, nominati voluptatum.
                             </p>
                         </div>
                     </div>
-                    <div class="feature-section-buttons">
-                        <a href="#">Read more</a>
-                        <div class="line"></div>
-                        <p>or</p>
-                        <div class="line"></div>
-                        <a href="#">Get started</a>
+                    <div class="features-buttons">
+                        <a href="#" class="button features-buttons__item">Read more</a>
+                        <div class="features-buttons__line"></div>
+                        <p class="features-buttons__text">OR</p>
+                        <div class="features-buttons__line"></div>
+                        <a href="#" class="button features-buttons__item">Get started</a>
                     </div>
                 </div>
             </div>
-            <div class="stats-section">
-                <div class="section-left">
-                    <div class="stats-section-content">
-                        <div class="icon">
+            <!-- *********************************FEATURES section end********************************* -->
+
+            <!-- *********************************STATS section start********************************* -->
+            <div class="stats">
+                <div class="stats__item stats__item_left">
+                    <div class="stats__content stats__content_left">
+                        <div class="stats__icon">
                             <svg width="67" height="68" viewBox="0 0 67 68" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2 33.625C2 16.159 16.2412 2 33.8085 2C37.0463 2 40.1712 2.48098 43.1147 3.375"
@@ -283,13 +286,13 @@
                                 <ellipse cx="64.234" cy="33.625" rx="2.76596" ry="2.75" fill="white" />
                             </svg>
                         </div>
-                        <p>89%</p>
-                        <p>Customers who have increased their productivity</p>
+                        <p class="stats__title stats__title_left">89%</p>
+                        <p class="stats__text stats__text_left">Customers who have increased their productivity</p>
                     </div>
                 </div>
-                <div class="section-right">
-                    <div class="stats-section-content">
-                        <div class="icon">
+                <div class="stats__item stats__item_right">
+                    <div class="stats__content stats__content_right">
+                        <div class="stats__icon">
                             <svg width="75" height="66" viewBox="0 0 75 66" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <ellipse cx="28.6252" cy="17.5" rx="15.6369" ry="15.5" stroke="#5E80FF" stroke-width="4"
@@ -305,11 +308,14 @@
                             </svg>
 
                         </div>
-                        <p>3123</p>
-                        <p>Users who have used our application</p>
+                        <p class="stats__title stats__title_right">3123</p>
+                        <p class="stats__text stats__text_right">Users who have used our application</p>
                     </div>
                 </div>
             </div>
+            <!-- *********************************STATS section end********************************* -->
+
+            <!-- *********************************BLOG section start********************************* -->
             <div class="blog-section">
                 <p>OUR RESOURCES</p>
                 <h2>Start reading our blog</h2>
@@ -389,6 +395,9 @@
                 <div class="blog-slider-pagination"></div>
 
             </div>
+            <!-- *********************************BLOG section end********************************* -->
+
+            <!-- *********************************QUOTES section start********************************* -->
             <div class="quotes-section">
                 <div class="quotes-section-wrapper">
                     <div class="quotes-text">
@@ -436,6 +445,9 @@
                 </div>
 
             </div>
+            <!-- *********************************QUOTES section end********************************* -->
+
+            <!-- *********************************FAQ section start********************************* -->
             <div class="faq-section">
                 <p>Customer help</p>
                 <h2>Frequently asked questions</h2>
@@ -525,6 +537,9 @@
                     </div>
                 </div>
             </div>
+            <!-- *********************************FAQ section end********************************* -->
+
+            <!-- *********************************GET STARTED section start********************************* -->
             <div class="get-started-section">
                 <p>PLAN YOUR LIFE</p>
                 <h2>Get <span>started</span> now</h2>
@@ -535,6 +550,9 @@
                     <a href="#">Read documentation</a>
                 </div>
             </div>
+            <!-- *********************************GET STARTED section end********************************* -->
+
+            <!-- *********************************NEWSLETTER section start********************************* -->
             <div class="newsletter-section">
                 <div class="wrapper">
                     <div class="newsletter-section-text">
@@ -547,6 +565,7 @@
                     </form>
                 </div>
             </div>
+            <!-- *********************************NEWSLETTER section end********************************* -->
         </main>
         <footer>
             <div class="navigation">
