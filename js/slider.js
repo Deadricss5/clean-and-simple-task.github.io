@@ -8,15 +8,15 @@ let heroSlider = new Swiper(".hero-slider", {
 });
 
 
-let blogSlide = new Swiper(".blog-swiper", {
+let blogSlide = new Swiper(".blog-slider", {
   allowTouchMove: false,
   loop: true,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".blog-slider__button-next",
+    prevEl: ".blog-slider__button-prev",
   },
   pagination: {
-    el: ".blog-slider-pagination",
+    el: ".blog-slider__pagination",
     clickable: true,
   },
 });
