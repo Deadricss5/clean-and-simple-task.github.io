@@ -1,0 +1,50 @@
+.hero-slider__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 210px;
+    background: url(/img/hero/slide1.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+.hero-slider__text-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+
+.hero-slider__subtitle {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero-slider__text {
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.hero-slider__button {
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
+    border: none;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+}
+
+.hero-slider__button:hover {
+    cursor: pointer;
+}
+
+.hero-slider__button:hover svg path {
+    fill: #5E81FE;
+}
+
+.hero-slide__pagination {
+    margin-bottom: 10px;
+}

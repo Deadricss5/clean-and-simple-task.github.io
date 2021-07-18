@@ -1,13 +1,13 @@
-let swiper = new Swiper(".hero-section-slider", {
-  allowTouchMove: false,
+let heroSlider = new Swiper(".hero-slider", {
+  loop: true,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".hero-slide__pagination",
     clickable: true,
   },
 });
 
 
-let swiper2 = new Swiper(".blog-swiper", {
+let blogSlide = new Swiper(".blog-swiper", {
   allowTouchMove: false,
   loop: true,
   navigation: {
