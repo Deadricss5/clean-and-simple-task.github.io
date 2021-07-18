@@ -1,0 +1,53 @@
+.plan-and-manage {
+    background: url('/img/plan-and-manage/apps.png') no-repeat;
+    background-position: right 23px top 120px;
+    background-size: 51%;
+    background-color: #F5F8FF;
+}
+
+.plan-and-manage__wrapper {
+    padding: 208px 0px 210px 270px;
+}
+
+.plan-and-manage__text-body {
+    display: flex;
+    flex-flow: column;
+}
+
+.plan-and-manage__title {
+    margin: 0;
+}
+
+.plan-and-manage__subtitle {
+    margin: 25px 0 10px 0;
+    font-size: 36px;
+}
+
+.plan-and-manage__text {
+    max-width: 410px;
+    margin-bottom: 70px;
+}
+
+.plan-and-manage__buttons a {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    border: 1px solid #D1D1E4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 13px 25px;
+    color: #ADB4D2;
+
+}
+
+.plan-and-manage__buttons a:hover {
+
+    background: #4C85FF;
+    box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+    border-radius: 2px;
+    color: #FFFFFF;
+
+}

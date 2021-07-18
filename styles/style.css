@@ -8,6 +8,7 @@
 /* SECTONS */
 @import url('sections/hero/hero.css');
 @import url('sections/customers/customers.css');
+@import url('sections/plan-and-manage/plan-and-manage.css');
 
 
 p {
@@ -37,7 +38,7 @@ a {
 
 
 
-
+/* 
 .plan-and-manage-section {
     background-color: #F5F8FF;
 }
@@ -122,7 +123,7 @@ a {
 
 .plan-and-manage-image img {
     max-width: 725px;
-}
+} */
 
 .features-section {
     background: url(../images/features/features-bg.png) no-repeat center center;
