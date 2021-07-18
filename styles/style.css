@@ -7,6 +7,7 @@
 
 /* SECTONS */
 @import url('sections/hero/hero.css');
+@import url('sections/customers/customers.css');
 
 
 p {
@@ -35,19 +36,7 @@ a {
 
 
 
-.customers-section ul {
-    padding: 58px 0;
-    list-style-type: none;
-    max-width: 888px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-}
 
-.customers-section ul li:hover a svg path {
-    fill: #5E81FE;
-}
 
 .plan-and-manage-section {
     background-color: #F5F8FF;

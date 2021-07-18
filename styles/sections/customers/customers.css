@@ -1,0 +1,13 @@
+.customers__list {
+    padding: 58px 0;
+    list-style-type: none;
+    max-width: 888px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.customers__item:hover a svg path {
+    fill: #5E81FE;
+}
