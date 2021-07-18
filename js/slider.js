@@ -1,4 +1,5 @@
 let heroSlider = new Swiper(".hero-slider", {
+  allowTouchMove: false,
   loop: true,
   pagination: {
     el: ".hero-slide__pagination",

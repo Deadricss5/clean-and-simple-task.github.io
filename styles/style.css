@@ -5,6 +5,9 @@
 /* COMMON blocks */
 @import url('common-blocks/common-blocks.css');
 
+/* SECTONS */
+@import url('sections/hero/hero.css');
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -28,8 +31,6 @@ a {
     margin: 0 auto;
 }
 
-/* SECTONS */
-@import url('sections/hero/hero.css');
 
 
 
