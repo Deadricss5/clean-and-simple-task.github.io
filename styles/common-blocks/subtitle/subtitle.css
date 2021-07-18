@@ -1,0 +1,14 @@
+.subtitle {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.subtitle span {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+}

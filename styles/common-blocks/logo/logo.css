@@ -1,0 +1,10 @@
+.logo__body {
+    width: 26px;
+    height: 26px;
+    background-color: #697CA6;
+    border-radius: 50%;
+}
+
+.logo__body:hover {
+    background: #5E81FE;
+}

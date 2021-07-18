@@ -50,7 +50,6 @@ for (i = 0; i < acc.length; i++) {
       this.style.color = '#8E96B7'
       this.firstChild.firstElementChild.setAttribute('d','M2 2L9 9L16 2')
       this.firstChild.firstElementChild.setAttribute('stroke','#8E96B7')
-      this
     } else {
       panel.style.display = "block";
       this.style.color = '#495274'

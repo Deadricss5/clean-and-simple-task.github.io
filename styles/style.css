@@ -1,3 +1,12 @@
+@import url('/styles/normalize.css');
+@import url('/styles/google\ fonts/fonts.css');
+@import url('https://unpkg.com/swiper/swiper-bundle.min.css');
+
+/* COMMON blocks */
+@import url('common-blocks/common-blocks.css');
+
+
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -15,87 +24,12 @@ a {
     font-family: 'Quicksand', sans-serif;
 }
 
-.page {
+.body-container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.common-menu {
-    max-width: 1206px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 19px;
-    padding-bottom: 18px;
 
-}
-
-.common-menu a:hover {
-    color: #5E81FE;
-}
-
-.common-menu svg:hover path {
-    fill: #5E81FE;
-}
-
-.common-menu .logo {
-    width: 26px;
-    height: 26px;
-
-    background-color: #697CA6;
-    border-radius: 50%;
-}
-
-.common-menu .logo:hover {
-    background: #5E81FE;
-}
-
-.common-menu nav {
-    margin-left: 75px;
-}
-
-.common-menu nav a {
-    text-decoration: none;
-    color: #697CA6;
-    letter-spacing: 0.6px;
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: 38px;
-}
-
-
-.common-menu nav a:first-child {
-    margin-left: 0;
-}
-
-.common-menu .social-icons {
-    margin-left: 350px;
-    margin-right: 40px;
-}
-
-.common-menu .social-icons a {
-    margin-left: 35px;
-}
-
-.common-menu .social-icons a:first-child {
-    margin-left: 0;
-}
-
-.common-menu .get-started {
-    text-decoration: none;
-    color: #7382A3;
-    background-color: #E8ECF4;
-    letter-spacing: 0.6px;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 15px 19px;
-}
-
-.common-menu .get-started:hover {
-    background-color: #D2E1FF;
-    color: #3A79FF;
-}
 
 
 /* swiper section */
