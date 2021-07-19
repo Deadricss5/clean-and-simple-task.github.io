@@ -12,6 +12,7 @@
 @import url('sections/features/features.css');
 @import url('sections/stats/stats.css');
 @import url('sections/blog/blog.css');
+@import url('sections/quotes/quotes.css');
 
 /* p {
     font-family: 'Roboto', sans-serif;
@@ -39,7 +40,7 @@ a {
 
 
 
-
+/* 
 .quotes-section {
     position: relative;
     overflow: hidden;
@@ -145,7 +146,7 @@ a {
     position: absolute;
     margin-left: -260px;
 }
-
+ */
 
 
 /* FAQ section start */

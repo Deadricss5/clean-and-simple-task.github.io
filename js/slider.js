@@ -24,13 +24,13 @@ let blogSlide = new Swiper(".blog-slider", {
 
 const qoutesSlider = new Swiper('.quotes-slider', {
   // Default parameters
-  slidesPerView: 2,
-  autoHeight: false,
-  spaceBetween: 60,
+  slidesPerView: "auto",
+  // slidesPerView: 2,
+  // autoHeight: false,
   loop:true,
   centeredSlidesBounds: true,
   pagination: {
-    el: ".quotes-slider-pagination",
+    el: ".quotes-slider__pagination",
     clickable: true,
     dynamicBullets:true,
     dynamicMainBullets:1,
